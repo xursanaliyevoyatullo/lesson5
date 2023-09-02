@@ -18,9 +18,15 @@ if (slice > 6 && slice < 12) {
     body.style.backgroundImage = "url('./images/evening.jpg')"
     kun.textContent = `Evening`
     vaqt.style.color = 'white'
+    kun.style.color = 'white'
+    sana.style.color = 'white'
 } else {
     body.style.backgroundImage = "url('./images/night.jpg')"
     kun.textContent = `Night`
+    kun.textContent = `Evening`
+    vaqt.style.color = 'white'
+    kun.style.color = 'white'
+    sana.style.color = 'white'
 }
 
 setInterval(() => {
